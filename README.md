@@ -1,8 +1,8 @@
-# 🎨 GenAI Studio — AI Image Generator
+# GenAI Studio — AI Image Generator
 
 An AI-powered text-to-image generator built with **React**, **Express**, and **Google Gemini Imagen API**. Create stunning, high-quality images from text prompts with multiple art styles.
 
-## ✨ Features
+## Features
 
 - **AI Image Generation** — Powered by Google Gemini Imagen 4.0
 - **Multiple Art Styles** — Photorealistic, Anime, 3D Render, Cyberpunk
@@ -11,7 +11,7 @@ An AI-powered text-to-image generator built with **React**, **Express**, and **G
 - **Download & Copy** — Save generated images or copy prompts instantly
 - **Responsive Design** — Beautiful glassmorphism UI that works on all devices
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer      | Technology                          |
 |------------|-------------------------------------|
@@ -21,7 +21,7 @@ An AI-powered text-to-image generator built with **React**, **Express**, and **G
 | Fallback   | Pollinations.ai (free tier)          |
 | Icons      | Lucide React                        |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ npm run build
 npm start
 ```
 
-## 🌐 Deployment (Render.com)
+## Deployment (Render.com)
 
 This project includes a `render.yaml` blueprint for one-click deployment on [Render](https://render.com):
 
@@ -96,7 +96,7 @@ You can also deploy manually on any Node.js hosting:
 
 The server will serve the React build files in production mode.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Image-generator/
@@ -119,11 +119,11 @@ Image-generator/
 └── README.md
 ```
 
-## 📜 License
+## License
 
 MIT License — feel free to use this project for learning and personal use.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -133,4 +133,4 @@ MIT License — feel free to use this project for learning and personal use.
 
 ---
 
-Built with ❤️ using Google Gemini AI
+Built using Google Gemini AI

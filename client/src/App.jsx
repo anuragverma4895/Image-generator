@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { 
   Download, Copy, Image as ImageIcon, 
-  History, Check, Sparkles, Layers, Zap, Shield, ChevronRight
+  History, Check, Sparkles, Layers, Zap, Shield, ChevronRight, AlertTriangle
 } from 'lucide-react';
 
 const API_URL = import.meta.env.VITE_API_URL || '';
@@ -200,7 +200,7 @@ function App() {
 
               {error && (
                 <div className="bg-red-500/10 border border-red-500/30 text-red-400 p-4 rounded-xl text-sm flex items-start gap-3 backdrop-blur-md">
-                  <span className="mt-0.5 text-xl">⚠️</span>
+                  <AlertTriangle className="w-5 h-5 text-red-400 mt-0.5 shrink-0" />
                   <p>{error}</p>
                 </div>
               )}
