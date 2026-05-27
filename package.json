@@ -1,0 +1,23 @@
+{
+  "name": "genai-studio-image-generator",
+  "version": "1.0.0",
+  "description": "AI-powered image generator using Google Gemini Imagen API with React + Express",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "postinstall": "npm run install:all"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ai", "image-generator", "gemini", "react", "express"],
+  "license": "MIT"
+}

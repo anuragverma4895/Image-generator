@@ -1,0 +1,5 @@
+/* App-specific component styles */
+
+/* All primary styling is handled via Tailwind CSS utility classes */
+/* This file is reserved for complex component animations or styles
+   that cannot be easily expressed with utility classes */
